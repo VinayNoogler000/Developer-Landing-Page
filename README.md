@@ -6,6 +6,6 @@
 
 _I also followed indsutry coding practices to make the codebase easier to read and maintain._
 
-_Thank you for reading this and I hope that you liked it._
+_Thank you for reading this, and I hope that you liked it._
 
 _Please, feel free to give constructive feedbacks, so that I can improve myself._
