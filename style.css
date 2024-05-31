@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.intro {
+    height: 100vh;
+    background-image: url(Images/developer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+}
+
+.text-container {
+    width: 1000px;
+    margin: auto;
+}
+
+.heading {
+    color: white;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.intro span {
+    font-size: 36px;
+}
+
+.black-box {
+    height: 280px;
+    background-color: #161619;
+    text-align: center;
+    padding: 25px
+}
+
+.black-box span {
+    font-size: 144px;
+}
+
+.cardsFrame {
+    min-width: 45%;
+    max-width: 1100px;
+    height: 450px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    width: 320px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 4px #00000040;
+    margin: 0 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.cards img {
+    width: 100%;
+    height: 190px;
+}
+
+.cards .info {
+    height: 170px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.cards .title {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.cards .info p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: justify;
+}
+
+footer {
+    width: 100%;
+    /* min-height: auto; */
+}
+
+#sec1 {
+    display: flex;
+    min-height: 380px;
+}
+
+#contact {
+    background-color: #515603;
+    flex: 1;
+}
+
+#about {
+    background-color: #722300;
+    flex: 1;
+}
+
+#sec1 .info {
+    width: 85%;
+    margin: 50px auto;
+    color: white;
+}
+
+#sec1 .info h1 {
+    font-weight: 400;
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+#sec1 .info p {
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 15px;
+}
+
+#sec1 .info span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#sec2 {
+    height: 140px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 50px 10px;
+}
+
+#sec2 h4 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.cards:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 4px #00000070;
+}
+
+@media (max-width: 1050px) {
+    .intro {
+        height: 70vh;
+    }
+
+    .intro .text-container {
+        width: auto;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 60px;
+    }
+
+    .black-box {
+        height: 200px;
+    }
+
+    .black-box span {
+        font-size: 100px;
+    }
+
+    #sec2 {
+        height: 100px;
+        padding: 30px;
+    }
+    
+}
+
+@media (max-width: 845px) {
+    .heading {
+        font-size: 40px;
+    }
+
+    .intro span {
+        font-size: 24px;
+    }
+
+    .black-box {
+        height: 150px;
+    }
+
+    .black-box span {
+        font-size: 80px;
+    }
+
+    .cardsFrame {
+        height: auto;
+        margin: 50px auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        margin: 10px auto;
+    }
+
+    #sec1 {
+        flex-direction: column;
+    }
+
+    #sec1 .info h1 {
+        font-size: 30px;
+    }
+
+    #sec1 .info p {
+        font-size: 14px;
+    }
+
+    #sec1 .info span {
+        font-size: 16px;
+    }
+
+}
