@@ -4,7 +4,7 @@
 
 **_I developed this basic responive project by utilizing CSS Flexbox and Media Queries._**
 
-_I also followed indsutry coding practices to make the codebase easier to read and maintain._
+_I had also followed indsutry coding practices to make the codebase easier to read and maintain._
 
 _Thank you for reading this, and I hope that you liked it._
 
